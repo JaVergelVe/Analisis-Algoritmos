@@ -1,6 +1,12 @@
-CODIGO JAVA
+package numero_perfecto;
 
-	Scanner sc = new Scanner(System.in);
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Numero_perfecto {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("ingrese un numero: ");
         int numero = sc.nextInt();
@@ -31,3 +37,6 @@ CODIGO JAVA
         }
 
         System.out.println("timepo de ejecucion(nanosegundos): " + endTime);
+    }
+
+}
